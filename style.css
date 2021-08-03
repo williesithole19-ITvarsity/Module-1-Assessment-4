@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+}
+th{
+    font-family: sans-serif;
+    font-weight: 800;
+    color: darkgray;
+    background-color: black;
+}
+td{
+    background-color: black;
+    color: cornflowerblue;
+}
+h1{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+p{
+    background-color: cornflowerblue;
+}
+
+#menu a{
+
+    font-weight: 800;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+   
+    background-image: url('image/menu-button.gif');
+    background-repeat: no-repeat;
+    display: block;
+    width: 128px;
+    height: 25px;
+    padding-left: 18px;
+    float: left;
+    background-color: black;
+}
+ #menu a:hover{
+     background-image: url('image/menu-button-hover.gif');
+     color: bisque;
+ }
